@@ -17,8 +17,8 @@ import java.util.Set;
 
 public class SetupLoader {
 
-    private static Path resourcesPath = Paths.get("..", "..", "resources");
-    private static Path cardListPath = Paths.get(resourcesPath.toString(),"cards", "BandidoCardsList");
+    private final static Path resourcesPath = Paths.get("..", "..", "resources");
+    private final static Path cardListPath = Paths.get(resourcesPath.toString(),"cards", "BandidoCardsList");
 
     private int players;
     private Difficulty difficulty;
